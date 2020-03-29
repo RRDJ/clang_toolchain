@@ -242,7 +242,7 @@ if(BUILD_BINUTILS)
         CONFIGURE_COMMAND
             ${THIRD_PARTY_DIR}/binutils/configure
                 --prefix=${TOOLCHAIN_DIR}
-                --target=${TARGET_TRIPLE}
+                --target=aarch64-unknown-linux-gnueabihf
                 --enable-gold
                 --enable-ld
                 --enable-lto
